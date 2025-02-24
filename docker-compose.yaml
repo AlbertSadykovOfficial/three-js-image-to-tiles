@@ -1,0 +1,7 @@
+services:
+  viewer_three_panorama_to_tile:
+    container_name: three_panorama_to_tile
+    build: .
+    volumes:
+      - "./app/:/app/"
+    command: "python index.py"
