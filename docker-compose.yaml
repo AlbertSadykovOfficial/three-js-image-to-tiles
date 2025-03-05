@@ -4,4 +4,4 @@ services:
     build: .
     volumes:
       - "./app/:/app/"
-    command: "python index.py"
+    command: "python index.py --path ./assets/panoramas/ --results_path ./results/t/ --levels 3 --initial_quality 1"
